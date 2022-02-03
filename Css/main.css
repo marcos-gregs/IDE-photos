@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6, p{
             }
             .sec-one-left{
                 height: 100vh;
-                background: url(/img/IMG-FACE06.jpg) center/cover no-repeat;
+                background: url(/img/sec-one/224718763_4072715139515158_7344974695376614525_n.jpg) center/cover no-repeat;
                 box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
@@ -274,12 +274,12 @@ h1, h2, h3, h4, h5, h6, p{
                 grid-column-gap:20px;
             }
             .work-img-1{
-                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(/img/IMG-FACE07.jpg)center/cover no-repeat;
+                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(/img/sec-one/IMG-FACE07.jpg)center/cover no-repeat;
                 height: 400px;
                 transition: var(--transition);
             }
             .work-img-2{
-                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(/img/IMG-FACE08.jpg)center/cover no-repeat;
+                background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(/img/sec-one/IMG-FACE08.jpg)center/cover no-repeat;
                 height: 400px;
                 transition: var(--transition);
             }
@@ -313,6 +313,7 @@ h1, h2, h3, h4, h5, h6, p{
             .insta-imgs > div{
                 position: relative;   
             }
+            
             .icon-overlay{
                 position: absolute;
                 color: #fff;
@@ -537,10 +538,12 @@ h1, h2, h3, h4, h5, h6, p{
                 }
                 .subs input{
                     width: 100%;
+                    border-radius: 8px 0 0 8px  ;
                 }
                 .subs button{
                     padding-left: 8px;
                     padding-right: 8px;
+                    border-radius: 0 8px 8px 0 ;
                 }
                 h2{
                     font-size: 30px!important;
@@ -693,4 +696,3 @@ h1, h2, h3, h4, h5, h6, p{
                     grid-template-columns: repeat(4,1fr);
                 }
             }
-           
